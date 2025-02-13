@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a563d442_002D0f30_002D491b_002D8c42_002Da986990de0d7/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="CheckHealth_AnimalIsUnhealthy_ReturnsFalse #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::4C7BF561-72E1-45E8-A4A2-AD93D6047920::net9.0::KPO_HW1_Popov_2310_Tests.VeterinaryClinicTests.CheckHealth_AnimalIsUnhealthy_ReturnsFalse&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=dbb6468a_002Dc56a_002D4986_002D8986_002Da9cc6a7deb4a/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CheckHealth_AnimalIsUnhealthy_ReturnsFalse" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::4C7BF561-72E1-45E8-A4A2-AD93D6047920::net9.0::KPO_HW1_Popov_2310_Tests.ZooTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::4C7BF561-72E1-45E8-A4A2-AD93D6047920::net9.0::KPO_HW1_Popov_2310_Tests.VetClinicTests&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
