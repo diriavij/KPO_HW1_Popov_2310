@@ -19,7 +19,7 @@ public class Zoo
         if (_clinic.CheckAnimalsHealth(animal))
         {
             _animals.Add(animal);
-            Console.WriteLine($"Animal added: {animal.Name}");
+            Console.WriteLine($"Animal added to the zoo: {animal.Name}");
         }
         else
         {
@@ -44,7 +44,7 @@ public class Zoo
     {
         foreach (var inventory in _inventory)
         {
-            Console.WriteLine($"Inventory number: {inventory.Number}");
+            Console.WriteLine($"Inventory number: {inventory.Number} is added to the zoo");
         }
     }
 

@@ -20,3 +20,4 @@
 /Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310/bin/Debug/net9.0/xunit.assert.dll
 /Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310/bin/Debug/net9.0/xunit.core.dll
 /Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310/bin/Debug/net9.0/xunit.execution.dotnet.dll
+/Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310/obj/Debug/net9.0/KPO_HW1_Popov_2310.sourcelink.json
