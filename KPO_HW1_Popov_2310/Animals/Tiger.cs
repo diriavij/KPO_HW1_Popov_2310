@@ -2,9 +2,9 @@ namespace KPO_HW1_Popov_2310.Animals;
 
 public class Tiger : Predator
 {
-    public override void Speak()
+    public override string Speak()
     {
-        Console.WriteLine("Roar!");
+        return "Roar!";
     }
     public Tiger(string name, bool isDangerous, int food, int health) : base(name, isDangerous, food, health) { }
 }

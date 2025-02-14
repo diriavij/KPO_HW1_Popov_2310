@@ -9,5 +9,5 @@ public abstract class Animal : IAlive
     public int Food { get; set; }
     public int Health { get; set; }
 
-    public abstract void Speak();
+    public abstract string Speak();
 }

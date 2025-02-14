@@ -109,3 +109,4 @@
 /Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310_Tests/obj/Debug/net9.0/KPO_HW1_Popov_2310_Tests.pdb
 /Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310_Tests/obj/Debug/net9.0/KPO_HW1_Popov_2310_Tests.genruntimeconfig.cache
 /Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310_Tests/obj/Debug/net9.0/ref/KPO_HW1_Popov_2310_Tests.dll
+/Users/fomapopov/RiderProjects/KPO_HW1_Popov_2310/KPO_HW1_Popov_2310_Tests/obj/Debug/net9.0/KPO_HW1_Popov_2310_Tests.sourcelink.json
