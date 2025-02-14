@@ -3,6 +3,9 @@ using KPO_HW1_Popov_2310.Inventory;
 
 namespace KPO_HW1_Popov_2310;
 
+/// <summary>
+/// Class that represents zoo. It keeps animals and inventory items.
+/// </summary>
 public class Zoo
 {
     private List<IAlive> _animals = new List<IAlive>();
@@ -14,6 +17,10 @@ public class Zoo
         _clinic = clinic;
     }
 
+    /// <summary>
+    /// Method that adds animal to the zoo if it is healthy enough.
+    /// </summary>
+    /// <param name="animal"></param>
     public void AddAnimal(Animal animal)
     {
         if (_clinic.CheckAnimalsHealth(animal))
@@ -27,11 +34,18 @@ public class Zoo
         }
     }
 
+    /// <summary>
+    /// Method that adds inventory item to the zoo.
+    /// </summary>
+    /// <param name="inventory"></param>
     public void AddInventory(IInventory inventory)
     {
         _inventory.Add(inventory);
     }
 
+    /// <summary>
+    /// Method that prints all animals of the zoo to the console.
+    /// </summary>
     public void ShowAnimals()
     {
         foreach (var animal in _animals.OfType<Animal>())
@@ -40,6 +54,9 @@ public class Zoo
         }
     }
 
+    /// <summary>
+    /// Method that prints all inventory items of the zoo to the console.
+    /// </summary>
     public void ShowInventory()
     {
         foreach (var inventory in _inventory)
@@ -48,6 +65,9 @@ public class Zoo
         }
     }
 
+    /// <summary>
+    /// Methods that prints only interactive animals of the zoo to the console.
+    /// </summary>
     public void ShowInteractiveAnimals()
     {
         foreach (var animal in _animals.OfType<Herbo>())
@@ -59,16 +79,28 @@ public class Zoo
         }
     }
 
+    /// <summary>
+    /// Returns the total food consumption of all animals in the zoo.
+    /// </summary>
+    /// <returns></returns>
     public int TotalFoodConsumption()
     {
         return _animals.Sum(animal => animal.Food);
     }
 
+    /// <summary>
+    /// Returns the quantity of inventory items.
+    /// </summary>
+    /// <returns></returns>
     public int GetInventoryCount()
     {
         return _inventory.Count;
     }
 
+    /// <summary>
+    /// Returns the quantity of animals in the zoo.
+    /// </summary>
+    /// <returns></returns>
     public int GetAnimalsCount()
     {
         return _animals.Count;

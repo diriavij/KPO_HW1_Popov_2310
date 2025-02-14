@@ -1,5 +1,8 @@
 namespace KPO_HW1_Popov_2310.Animals;
 
+/// <summary>
+///  Abstract class that represents animal that can be added to the zoo.
+/// </summary>
 public abstract class Animal : IAlive
 {
     public string Name { get; set; }

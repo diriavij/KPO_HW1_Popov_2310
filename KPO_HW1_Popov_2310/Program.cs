@@ -8,12 +8,15 @@ namespace KPO_HW1_Popov_2310
     {
         public static void Main()
         {
+            // Creating zoo and vet clinic instances.
             var services = new ServiceCollection();
             DependencyInjection.Configure(services);
             var serviceProvider = services.BuildServiceProvider();
 
             var zoo = serviceProvider.GetRequiredService<Zoo>();
 
+            // Adding animals and inventory items to the zoo based on the
+            // information provided by the user via console input.
             Console.WriteLine("Enter the number of animals:");
             int animalCount = int.Parse(Console.ReadLine());
 
@@ -96,6 +99,7 @@ namespace KPO_HW1_Popov_2310
                 }
             }
             
+            // Printing information about the zoo to the console.
             Console.WriteLine("Zoo Info:");
             zoo.ShowAnimals();
             zoo.ShowInventory();
